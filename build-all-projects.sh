@@ -1,10 +1,10 @@
 #!/bin/sh
 
-cd api-gateway; ./gradle clean build; cd ..
-cd auth-server; ./gradle clean build; cd ..
-cd config-server; ./gradle clean build; cd ..
-cd task-webservice; ./gradle clean build; cd ..
-cd user-webservice; ./gradle clean build; cd ..
-cd web-portal; ./gradle clean build; cd ..
-cd webservice-registry; ./gradle clean build; cd ..
-cd comments-webservice; ./gradle clean build; cd ..
+cd api-gateway; sudo ./gradle clean build; cd ..
+cd auth-server; sudo ./gradle clean build; cd ..
+cd config-server; sudo ./gradle clean build; cd ..
+cd task-webservice; sudo ./gradle clean build; cd ..
+cd user-webservice; sudo ./gradle clean build; cd ..
+cd web-portal; sudo ./gradle clean build; cd ..
+cd webservice-registry; sudo ./gradle clean build; cd ..
+cd comments-webservice; sudo ./gradle clean build; cd ..
